@@ -1,0 +1,52 @@
+[
+{
+"id": 1,
+"category": "knowledge",
+"question": "What is a security vulnerability?",
+"expected_keywords": [
+"weakness",
+"security",
+"system"
+]
+},
+{
+"id": 2,
+"category": "vulnerability_lookup",
+"question": "Analyze DemoWebServer version 1.0 and identify known security risks.",
+"software": "DemoWebServer",
+"version": "1.0",
+"expected_keywords": [
+"default",
+"credentials",
+"high"
+]
+},
+{
+"id": 3,
+"category": "configuration_analysis",
+"question": "Analyze this authorized lab configuration.",
+"configuration": {
+"tls_enabled": false,
+"default_credentials": true,
+"admin_interface_exposed": true
+},
+"expected_keywords": [
+"tls",
+"credentials",
+"administrative"
+]
+},
+{
+"id": 4,
+"category": "risk_calculation",
+"question": "Analyze the following authorized lab risk values.",
+"risk_values": {
+"impact": 9,
+"likelihood": 7
+},
+"expected_keywords": [
+"risk",
+"high"
+]
+}
+]

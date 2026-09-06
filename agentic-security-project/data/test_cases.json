@@ -1,0 +1,33 @@
+[
+{
+"id": 1,
+"expected_keywords": [
+"weakness",
+"security",
+"system"
+]
+},
+{
+"id": 2,
+"expected_keywords": [
+"default",
+"credentials",
+"high"
+]
+},
+{
+"id": 3,
+"expected_keywords": [
+"tls",
+"credentials",
+"administrative"
+]
+},
+{
+"id": 4,
+"expected_keywords": [
+"risk",
+"high"
+]
+}
+]
